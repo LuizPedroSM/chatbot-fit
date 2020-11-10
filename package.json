@@ -1,0 +1,27 @@
+{
+  "name": "chatbot-fit",
+  "version": "1.0.0",
+  "description": "Chatbot Fit no Telegram com JavaScript e NodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuizPedroSM/chatbot-fit.git"
+  },
+  "keywords": [],
+  "author": "Luiz Pedro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuizPedroSM/chatbot-fit/issues"
+  },
+  "homepage": "https://github.com/LuizPedroSM/chatbot-fit#readme",
+  "dependencies": {
+    "dialogflow": "^1.2.0",
+    "dotenv": "^8.2.0",
+    "node-telegram-bot-api": "^0.50.0",
+    "nodemon": "^2.0.6",
+    "youtube-node": "^1.3.3"
+  }
+}
